@@ -1,0 +1,11 @@
+[web]
+address = ":8080"
+
+[docker]
+endpoint = "unix:///var/run/docker.sock"
+domain = "example.com"
+watch = true
+exposedbydefault = true
+usebindportip = false
+swarmmode = true
+
